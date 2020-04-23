@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+<title>Zadanie 3</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="glowny">
+<div class="tyka">zegar tyka tyka</div><div id="aktualny"></div><div style="clear:both"></div>
+<div class="wakacje">do wakacji</div><div class="egzamin">do egzaminu zawodowego</div><div class="szkolny">do nowego roku szkolnego</div><div style="clear:both"></div>
+<div id="czaswakacje"></div><div id="czasegzamin"></div><div id="czasszkolny"></div><div style="clear:both"></div>
+</div>
+<script>
+var data=new Date();
+var wakacje=new Date(2020, 06, 27);
+var czaswakacje=wakacje-data;
+var dni=Math.floor(czaswakacje/(1000*60*60*24));
+var egzamin=new Date(2020, 06, 22);
+var czasegzamin=egzamin-data;
+var dni2=Math.floor(czasegzamin/(1000*60*60*24));
+var szkola=new Date(2020, 09, 01);
+var czasszkola=szkola-data;
+var dni3=Math.floor(czasszkola/(1000*60*60*24));
+rok=data.getFullYear(); // 1000-9999
+godzina=data.getHours(); // bieżąca godzina na komputerze
+minuta=data.getMinutes(); // minuty
+dzien=data.getDate();
+miesiac=data.getMonth()+1; // miesiące (0-11)
+sekunda=data.getSeconds(); // sekundy
+document.getElementById("aktualny").innerHTML = dzien+"."+miesiac+"."+rok+"<br>"+godzina+"."+minuta+"."+sekunda;
+document.getElementById("czaswakacje").innerHTML = dni+" dni";
+document.getElementById("czasegzamin").innerHTML = dni2+" dni";
+document.getElementById("czasszkolny").innerHTML = dni3+" dni";
+</script>
+</body>
+</html>

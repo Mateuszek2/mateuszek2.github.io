@@ -1,0 +1,127 @@
+body
+{
+background-color:black;
+}
+.glowny
+{
+text-align:center;
+color:white;
+font-size:20px;
+margin-left:auto;
+margin-right:auto;
+width:1210px;
+height:600px;
+}
+.tyka
+{
+font-size:40px;
+margin-left:0px;
+margin-right:0px;
+margin-bottom:0px;
+margin-top:0px;
+padding-top:20px;
+padding-buttom:20px;
+float:left;
+width:600px;
+height:150px;
+background-color: #acb9ca;
+border: solid black 2px;
+}
+#aktualny
+{
+margin-left:0px;
+margin-right:0px;
+margin-bottom:0px;
+margin-top:0px;
+padding-top:20px;
+padding-buttom:20px;
+float:left;
+width:600px;
+height:150px;
+background-color: #d5dce4;
+border: solid black 2px;
+}
+.wakacje
+{
+margin-left:0px;
+margin-right:0px;
+margin-bottom:0px;
+margin-top:0px;
+padding-top:20px;
+padding-buttom:20px;
+float:left;
+width:400px;
+height:200px;
+background-color: #f7caac;
+border: solid black 1px;
+}
+.egzamin
+{
+margin-left:0px;
+margin-right:0px;
+margin-bottom:0px;
+margin-top:0px;
+padding-top:20px;
+padding-buttom:20px;
+float:left;
+width:400px;
+height:200px;
+background-color: #c9c9c9;
+border: solid black 1px;
+}
+.szkolny
+{
+margin-left:0px;
+margin-right:0px;
+margin-bottom:0px;
+margin-top:0px;
+padding-top:20px;
+padding-buttom:20px;
+float:left;
+width:400px;
+height:200px;
+background-color: #a8d08d;
+border: solid black 1px;
+}
+#czaswakacje
+{
+margin-left:0px;
+margin-right:0px;
+margin-bottom:0px;
+margin-top:0px;
+padding-top:20px;
+padding-buttom:20px;
+float:left;
+width:400px;
+height:200px;
+background-color: #f4b083;
+border: solid black 1px;
+}
+#czasegzamin
+{
+margin-left:0px;
+margin-right:0px;
+margin-bottom:0px;
+margin-top:0px;
+padding-top:20px;
+padding-buttom:20px;
+float:left;
+width:400px;
+height:200px;
+background-color:#7b7b7b;
+border: solid black 1px;
+}
+#czasszkolny
+{
+margin-left:0px;
+margin-right:0px;
+margin-bottom:0px;
+margin-top:0px;
+padding-top:20px;
+padding-buttom:20px;
+float:left;
+width:400px;
+height:200px;
+background-color: #538135;
+border: solid black 1px;
+}
